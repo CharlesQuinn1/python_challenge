@@ -20,7 +20,6 @@ with open(budget_data_csv,'r') as csvfile:
     pl_ttl = 0
     i = 0
     sum_pl = 0
-    chng_prof = dict()
     for row in budget_file:
 
 # Calculate profit/loss grand total (mnth_ttl)
