@@ -1,4 +1,4 @@
-# python_challenge
+# Python Challenge
 Bootcamp: UTA-VIRT-DATA-PT-04-2023-U-LOLC-MTTH
 
 <b>Program:</b> Reads in the CSVs for both PyBank and PyPoll using Python<br>
