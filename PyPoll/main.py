@@ -47,8 +47,10 @@ print('Winner: ',win.iloc[0])
 print(' ')
 print('-'*100)
 
-# Write Results to a file
+# format final output
 df_reset['votes'] = df_reset['Ballot ID']
+df_reset['Winner'] = win.iloc[0]
+
+# Write Results to a file
 election_results = os.path.join("analysis", "election_results.csv")
-# print(election_results)
-df_reset.to_csv(election_results, index=False, columns=['Candidate','votes','vote_ttl','vote_pct'])
+df_reset.to_csv(election_results, index=False, columns=['Candidate','votes','vote_pct','Winner'])
