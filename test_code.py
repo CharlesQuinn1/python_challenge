@@ -1,6 +1,7 @@
 import os
 import csv
 from collections import OrderedDict
+import pandas as pd
 
 
 # Change directory to current working directory of main.py file at
@@ -9,7 +10,7 @@ from collections import OrderedDict
 dirname = os.path.dirname(__file__)
 dirname = dirname + chr(92)
 os.chdir(dirname)
-election_data_csv = os.path.join("PyPoll","Resources","election_data_test.csv")
+election_data_csv = os.path.join("PyPoll", "Resources", "election_data_test.csv")
 
 # print(dirname)
 # print(election_data_csv)
